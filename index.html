@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>鞋子購物平台</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #fafafa; margin: 0; }
+        header { background-color: #3182ce; color: #fff; padding: 20px; text-align: center; }
+        nav { background: #eee; padding: 10px; text-align: center; }
+        nav a { margin: 0 10px; color: #3182ce; text-decoration: none; }
+        nav a:hover { text-decoration: underline; }
+        main { max-width: 900px; margin: 40px auto; background: #fff; box-shadow: 0 0 8px #ddd; padding: 30px; }
+        .products { display: flex; flex-wrap: wrap; gap: 28px; }
+        .product { border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px; width: 220px; text-align: center; background: #f8fafc;}
+        .product img { width: 160px; height: 100px; object-fit: cover; border-radius: 4px;}
+        .buy-btn { display: block; margin: 16px auto 0; background: #3182ce; color: white; border: none; padding: 8px 18px; border-radius: 6px; cursor: pointer;}
+        .buy-btn:hover { background: #1653a2;}
+        footer { background: #eee; color: #333; text-align: center; padding: 18px; margin-top: 48px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>潮鞋購物平台</h1>
+        <p>發現最新流行鞋款，輕鬆選購！</p>
+    </header>
+    <nav>
+        <a href="#">首頁</a> |
+        <a href="#">新品上市</a> |
+        <a href="#">品牌推薦</a> |
+        <a href="#">折扣區</a> |
+        <a href="#">聯絡我們</a>
+    </nav>
+    <main>
+        <h2>熱門商品</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?fit=crop&w=500&q=80" alt="酷跑鞋A">
+                <h3>酷跑鞋A</h3>
+                <p>舒適耐磨，適合日常運動</p>
+                <strong>NT$ 2,080</strong>
+                <button class="buy-btn">加入購物車</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1519864601051-3c59781cb445?fit=crop&w=500&q=80" alt="時尚休閒鞋B">
+                <h3>時尚休閒鞋B</h3>
+                <p>潮流設計，百搭首選</p>
+                <strong>NT$ 2,480</strong>
+                <button class="buy-btn">加入購物車</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?fit=crop&w=500&q=80" alt="機能運動鞋C">
+                <h3>機能運動鞋C</h3>
+                <p>專業跑步鞋，自在競速</p>
+                <strong>NT$ 2,980</strong>
+                <button class="buy-btn">加入購物車</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        &copy; 2025 鞋子購物平台，所有權利保留
+    </footer>
+</body>
+</html>
